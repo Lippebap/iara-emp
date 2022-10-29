@@ -19,8 +19,8 @@
     color: #fff !important;
 }
 
-.btn-curso:hover {
-    background-color: #C5E53A;
+.btn-curso:hover,.btn-curso:active {
+    background-color: #C5E53A!important;
     color: #fff !important;
 }
 
