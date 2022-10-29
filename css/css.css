@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.links-btt {
+    color: #404B55 !important;
+    font-size: 15px;
+    font-weight: 700 !important;
+    opacity: 0.8;
+    padding: 9px 15px;
+    border-radius: 5px;
+    margin-right: 2px;
+}
+
+.btn-curso {
+    background-color: #C7E43B;
+    color: #fff !important;
+}
+
+.btn-curso:hover {
+    background-color: #C5E53A;
+    color: #fff !important;
+}
+
+.btn-light {
+    
+    border: 0!important;
+}
+.btn-light:hover {
+    background-color: rgb(200,200,200,.6);
+}
+
+.pb-15 {
+    padding-bottom: 9px!important;
+    line-height: 20px;
+}
+
+.section-show {
+    padding-top: 74px;
+    height: 800px;
+}
+
+.fs-15 {
+    font-size: 50px;
+}
+
+.fs-13 {
+    font-size: 40px;
+}
+
+.color-section {
+    background-color: #C5E53A;
+}
+
+.color-left {
+    border-left: 2px solid #C5E53A;
+}
+
+.avl-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.btn-consulta {
+    border: 5px solid #fff;
+    border-radius: 0;
+    width: fit-content;
+    padding: 15px 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .w-auto {
+      width: 100%!important;
+    }
+    .w-device {
+        width: 100%!important;
+    }
+    .section-show {
+        padding-top: 180px;
+        height: max-content;
+        padding-bottom: 50px;
+    }
+    .flex-d-device {
+        flex-direction: column-reverse;
+    }
+    .col-reverse-device {
+        flex-direction: column-reverse;
+    }
+    .avl-device,.text-end-device {
+        text-align: center!important;
+    }
+    .ms-3-device {
+        margin: 0!important;
+    }
+    .img-device-off {
+        display: none;
+    }
+  }
